@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <title>Website Sederhana Responsive</title>
+
+  <style>
+    body {
+      background-color: whitesmoke;
+    }
+
+    .navbar { 
+      overflow: hidden;  
+      background-color: #333; 
+    }
+
+    .navbar a {
+      color: #f2f2f2;
+      text-decoration: none;
+      float: left;
+      display: block;
+      text-align: center;
+      padding: 14px 16px;
+
+    }
+
+    .navbar a:hover{
+      color: #ccc;
+    }
+
+   div.gallery {
+    border: 1px solid #ccc;
+   }
+
+   div.gallery:hover {
+    border: 1px solid #777;
+   }
+
+   div.gallery img {
+    width: 100%;
+    height: auto;
+   }
+
+   div.desc {
+    padding: 15px;
+    text-align: center;
+   }
+
+   * {
+    box-sizing: border-box;
+   }
+
+   .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+   }
+
+   @media only screen and (max-width:700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+   }
+
+   @media only screen and (max-width:500px) {
+    .responsive {
+      width: 100%;
+
+    }
+   }
+
+   .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+   }
+
+   .header {
+    background-color: #ddd;
+    padding: 20px;
+    text-align: center;
+   }
+
+  </style>
+
+  <body>
+    <div class="header">
+      <h1>Header</h1>
+    </div>
+
+    <div class="navbar">
+      <a  target="" href="index.html">Home</a>
+      <a target="" href="profil.html">Profil</a>
+      <a target="" href="login.html" style="position: relative; padding-left: 29cm;">Logout</a>
+    </div>
+
+    <h2>Responsive Gallery Website</h2>
+
+    <div class="responsive">
+      <div class="gallery">
+        <a target="C:\Users\user\OneDrive\Documents\coding marsya\coding 1\b inggris.jpg">
+          <img src="C:\Users\user\OneDrive\Documents\coding marsya\coding 1\b inggris.jpg" alt="pelajar 1" 
+          width="600" height="400">
+        </a>
+        <div class="desc">INGGRIS</div> 
+      </div>
+    </div>
+
+    <div class="responsive">
+      <div class="gallery">
+        <a target="C:\Users\user\OneDrive\Documents\coding marsya\coding 1\ipa.jpg">
+          <img src="C:\Users\user\OneDrive\Documents\coding marsya\coding 1\ipa.jpg" alt="pelajar 2"
+          width="600" height="400"> 
+        </a>
+        <div class="desc">IPA</div>
+      </div>
+    </div>
+
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="C:\Users\user\OneDrive\Documents\coding marsya\coding 1\mtk.jpg">
+          <img src="C:\Users\user\OneDrive\Documents\coding marsya\coding 1\mtk.jpg" alt="pelajar 3"
+          width="600" height="400">
+        </a>
+        <div class="desc">MTK</div>
+      </div>
+    </div>
+
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="C:\Users\user\OneDrive\Documents\coding marsya\coding 1\IPS.jpg">
+          <img src="C:\Users\user\OneDrive\Documents\coding marsya\coding 1\IPS.jpg" alt="pelajar 4"
+          width="600" height="400">
+        </a>
+        <div class="desc">IPS</div>
+      </div>
+    </div>
+
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="C:\Users\user\OneDrive\Documents\coding marsya\coding 1\INDONESIA.jpg">
+          <img src="C:\Users\user\OneDrive\Documents\coding marsya\coding 1\INDONESIA.jpg" alt="pelajar 5"
+          width="600" height="400">
+        </a>
+        <div class="desc">INDONESIA</div>
+      </div>
+    </div>
+
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="C:\Users\user\OneDrive\Documents\coding marsya\coding 1\tik.jpg">
+          <img src="C:\Users\user\OneDrive\Documents\coding marsya\coding 1\tik.jpg" alt="pelajar"
+          width="600" height="400">
+        </a>
+        <div class="desc">TIK</div>
+      </div>
+    </div>
+
+    <div class="clearfix"></div>
+
+    <div style="padding: 6px;">
+      <p>Gambar diatas adalah hasil karya FAMA !!!!</p>
+    </div>
+
+  </body>
+
+  </head>
+</html>
